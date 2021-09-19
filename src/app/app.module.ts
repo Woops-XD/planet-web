@@ -10,12 +10,14 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatStepperModule} from '@angular/material/stepper';
 import {CdkStepperModule} from '@angular/cdk/stepper';
 import { StepIndicatorComponent } from './component/step-indicator/step-indicator.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AnimationTextComponent,
-    StepIndicatorComponent
+    StepIndicatorComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
